@@ -1,0 +1,4 @@
+Bu proje, Python ile geliştirilmiş Müşteri Yönetim Sistemi(CRM) uygulamasıdır. Küçük ve orta ölçekli işletmelerin müşteri kayıtlarını düzenli bir şekilde tutabilmesi, kolayca güncelleyebilmesi ve gerektiğinde toplu ya da bireysel e-posta gönderebilmesi amacıyla tasarlanmıştır. Arayüz için Tkinter, veritabanı işlemleri için SQLite (sqlite3) kullanılmıştır. Ayrıca smtplib ile e-posta gönderimi yapılmakta, re modülüyle veri doğrulama sağlanmakta ve datetime ile kayıt zamanları otomatik olarak oluşturulmaktadır. Uygulama; kayıt ekleme, düzenleme, silme, arama, otomatik telefon formatlama, geçerli e-posta kontrolü ve SMTP üzerinden güvenli e-posta gönderimi yapar.
+
+NOT:
+email_service.py dosyasını düzenleyerek e-posta ayarlarınızı girin
